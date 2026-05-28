@@ -1,3 +1,4 @@
+package Assignments;
 import java.util.Scanner;
 public class Variables_Datatypes_Assignment2 {
     public static void main(String[] args){
@@ -35,7 +36,7 @@ public class Variables_Datatypes_Assignment2 {
         //Question 4: to find the datatype of the result
         // the answer is double
         // Question 5: to find if the statement will give an error
-        // int $ = 24. this will give an error as variable names should not contain any aymbols other than'_'
+        // int $ = 24. this will not give any error as variable names should not contain any aymbols other than'_' and '$' and should not start with a number. So this is a valid variable name.
 
     }
     
