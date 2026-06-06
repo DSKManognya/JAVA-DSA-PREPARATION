@@ -27,5 +27,15 @@ public class Loops {
         System.out.println(i);
         i++;
     }
+    for(int j =1;j<=n;j++){
+        System.out.println("Hello World!");
+    }
+    //do -while loop
+    int counter = 1;
+    do{
+        System.out.println("Hello World!");
+        counter++;
+    }
+    while(counter<=5);
  }   
 }
