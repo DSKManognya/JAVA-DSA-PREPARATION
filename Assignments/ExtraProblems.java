@@ -90,11 +90,11 @@ public class ExtraProblems {
         System.out.println("Enter the minute:");
         int min = sc.nextInt();
         int idate = date;
-        int ihour = hour;
+        int ihour = hour+5;
         int imin = min+30;
         ihour+=imin/60;
         imin%=60;
-        ihour = hour+5;
+        //ihour = hour+5;
         
         idate += ihour/24;
         ihour%=24;
