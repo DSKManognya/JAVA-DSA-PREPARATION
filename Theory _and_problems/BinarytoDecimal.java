@@ -5,6 +5,8 @@ public class BinarytoDecimal {
         int res =0;
         while(n>0){
             int digit = n%10;
+            // res= res*10+digit *(int)Math.pow(2,count); this is wrong because unlike in decimal system we dont need to multiply with 10 here in binary system
+            
             res = res + digit *(int)Math.pow(2,count);
             n/=10;
             count++;
