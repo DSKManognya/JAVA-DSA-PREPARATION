@@ -9,6 +9,18 @@ public static int Sumofab(int a , int b){
     return sum;
     //System.out.println(sum);
 }
+public static int Sumofab(int a,int b, int c){
+    int sum = a+b+c;
+    return sum;
+    // this is function overloading with parameters
+
+}
+public static float Sumofab(float a , float b){
+    float sum = a+b;
+    return sum;
+    // this si function overloading with datatypes
+    
+}
 public static void swap(int a, int b){
     int temp = a;
     a= b;
