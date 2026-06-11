@@ -32,7 +32,7 @@ public class LinearSearch {
         return pos;
     }
     public static int largestNum(int arr[]){
-        int largest = Integer.MIN_VALUE;
+        int largest = Integer.MIN_VALUE;// can also intialise to the 0th element of the array
         for(int i=0;i<arr.length;i++){
             if(largest<arr[i]){
                 largest = arr[i];
